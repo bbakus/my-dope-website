@@ -5,8 +5,51 @@
         <link rel="stylesheet" href="./style.css"/>
   </head>
   <body>
-    <div><h1>CHECK IT</h1>
-       <script src="script.js"></script>
-    </div>
+    <div class="french-flag">
+        <div class="blue"></div>
+        <div class="white">
+          <h1 class="centered-header">French 101</h1>
+        </div>
+        <div class="red"></div>
+      </div>
+      
+      <style>
+      .french-flag {
+        display: flex;
+        width: 100%;
+        height: 200px;
+      }
+      
+      .blue {
+        background-color: #002395;
+        flex: 1;
+      }
+      
+      .white {
+        background-color: white;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .red {
+        background-color: #ED2939;
+        flex: 1;
+      }
+      
+      .centered-header {
+        color: black;
+        text-align: center;
+      }
+      </style>
+        <div class="second header">
+            <script src="script.js"></script>
+        </div>
+    
+   
+        <p id="first paragraph">
+            To begin, French is one of the most difficult romance languages to learn, in part due to it's pronunciation and it's particularities that other languages do not have.
+        </p>
     </body>
 </html>
