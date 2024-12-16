@@ -46,41 +46,22 @@ p{
     overflow: hidden;
     object-fit: cover;
 }
+.nouns-beginning{
+    margin-top:40px;
+}
 
 table.first-nouns{
         margin: auto;
-        width: 500px;
+        width: 800px;
         margin-top: 50px;
 }
 
 table.first-nouns img{
-    width: 150px;
-    height:100px;
+    width: 200px;
+    height:125px;
     border-radius: 15px;
     overflow: hidden;
     object-fit: cover;
+    padding: 10px;
 }
 
-/*.fraise img{
-        width: 150px;
-        height:100px;
-        border-radius: 15px;
-        overflow: hidden;
-        object-fit: cover;
-}
-
-.pomme img{
-    width: 150px;
-    height:100px;
-    border-radius: 15px;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.aubergine img{
-    width: 150px;
-    height:100px;
-    border-radius: 15px;
-    overflow: hidden;
-    object-fit: cover;
-}
